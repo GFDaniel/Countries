@@ -2,14 +2,8 @@ import React, { useEffect, useState, VoidFunctionComponent } from "react";
 import { useCookies } from "react-cookie";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { GrFormClose } from "react-icons/gr";
-import { ICountry } from "../../types";
+import { IModal } from "../../types";
 import './index.css';
-
-interface IModal {
-    isOpen: boolean;
-    toggle: () => void;
-    country: ICountry;
-}
 
 const Modal: VoidFunctionComponent<IModal> = ({isOpen, toggle, country}) => {
     

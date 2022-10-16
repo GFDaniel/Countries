@@ -47,3 +47,9 @@ export interface ICountry {
     fifa?: string;
     borders?: string[];
 }
+
+export interface IModal {
+    isOpen: boolean;
+    toggle: () => void;
+    country: ICountry;
+}

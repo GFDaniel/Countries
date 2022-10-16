@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GFDaniel.github.io/static/css/main.f1131d54.css",
-    "main.js": "/GFDaniel.github.io/static/js/main.ae1f83a6.js",
-    "static/js/787.862c3719.chunk.js": "/GFDaniel.github.io/static/js/787.862c3719.chunk.js",
-    "index.html": "/GFDaniel.github.io/index.html",
-    "main.f1131d54.css.map": "/GFDaniel.github.io/static/css/main.f1131d54.css.map",
-    "main.ae1f83a6.js.map": "/GFDaniel.github.io/static/js/main.ae1f83a6.js.map",
-    "787.862c3719.chunk.js.map": "/GFDaniel.github.io/static/js/787.862c3719.chunk.js.map"
+    "main.css": "/static/css/main.f1131d54.css",
+    "main.js": "/static/js/main.b2641c4d.js",
+    "static/js/787.862c3719.chunk.js": "/static/js/787.862c3719.chunk.js",
+    "index.html": "/index.html",
+    "main.f1131d54.css.map": "/static/css/main.f1131d54.css.map",
+    "main.b2641c4d.js.map": "/static/js/main.b2641c4d.js.map",
+    "787.862c3719.chunk.js.map": "/static/js/787.862c3719.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1131d54.css",
-    "static/js/main.ae1f83a6.js"
+    "static/js/main.b2641c4d.js"
   ]
 }

@@ -1,0 +1,33 @@
+.modal-overlay {
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(9, 41, 94, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modal-box {
+    display: block;
+    background: white;
+    width: 70%;
+    height: 70%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.info{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color:'#4F4F4F';
+}
+
+.spanInfo{
+    font-weight:400;
+}
+  

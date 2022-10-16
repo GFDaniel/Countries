@@ -1,0 +1,66 @@
+.container{
+    height:350px;
+    background-image: url('https://s3-alpha-sig.figma.com/img/14cf/8738/d87d84c21b318297becaea64af3a7256?Expires=1666569600&Signature=AzztmLmEireh9huVFiibF38~u1cM-sfCow9MgOIrcRLBxgXMb4EL2pUBCPI77q2pkLZIvymGthPKWzjB397Nb2c1IUVA58G~IdQg2dlG1gXN1XmZSuGsennJ6~EMl4dX~or2iKNrcL3ftsAPWvn1~4FM2ov-QO0dvHmNrQuZsUXAD5AmevfnIabAoN1bgAPe4bcDteSg5AFUbmsThtSMjVNtqGDMFLOSuYacVhxlCXWroeFqD11iZlx8ZyNaJzEcDt4NqStoLVaVBnJyZZzohM8nt8ilTGRGY7So0dme6cYVJYwZmM~7IoR7KYKeMuga6HrTqmr9FWdorHwIm39Ymg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    background-size:750px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-left:25px;
+}
+
+input {
+    width: 483px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    font-size:19px;
+    border: none;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+select{
+    width: 148px;
+    height: 35px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    outline: none;
+    display: inline;
+}
+
+button{
+    width: 69px;
+    height: 36px;
+    padding: 0px;
+    margin: 0px;
+    background: #21ADCF;
+    display: inline;
+    border: none;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.title{
+    color: #09295E;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.searchBox{
+    width: 700px;
+    height: 36px;
+    background: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.2px 2.2px 2.2px 2.2px;
+}

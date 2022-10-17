@@ -1,5 +1,5 @@
 ## Demo URL
-See the react app in [https://gfdaniel.github.io/Countries/](Demo) to view it in the browser.
+See the react app in [Demo URL](https://gfdaniel.github.io/Countries/) to view it in the browser.
 
 ## Enable Cookies
 

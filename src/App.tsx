@@ -15,8 +15,8 @@ function App() {
   const [cookies, setCookie] = useCookies(['favorites']);
 
   useEffect(() => {
-    setCookie('favorites', [], { path: '/', domain:'GFDaniel.github.io' });
-    
+    setCookie('favorites', [], { path: '/', domain:'GFDaniel.github.io', sameSite:'lax' });
+
     fetch('https://restcountries.com/v3/all')
     .then(results => results.json())
       .then(data => {

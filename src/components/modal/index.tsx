@@ -45,7 +45,7 @@ const Modal: VoidFunctionComponent<IModal> = ({isOpen, toggle, country}) => {
                         <GrFormClose onClick={toggle}/>
                     </div>
                     <div>
-                        <p style={{color:"#09295E", fontSize:50, fontWeight:500, textAlign:'left', padding:0, margin:0}}>
+                        <p className="name">
                             {country.name.common}
                             { cookies.favorites.includes(country.name.common) ? (<AiFillStar style={{ fontSize:30, color:'#F2C94C'}}/>): 
                                 <AiOutlineStar onClick={onclickFavorite} style={{ fontSize:30, color:"#BDBDBD"}}/> }
@@ -73,7 +73,7 @@ const Modal: VoidFunctionComponent<IModal> = ({isOpen, toggle, country}) => {
                     </div>
                     <div>
                         <p className="info" style={{margin:0, padding:0}} >Flag:</p>
-                        <p style={{textAlign:'left', fontSize:100, margin:0, padding:0}}>{country.flag}</p>
+                        <p className="flag">{country.flag}</p>
                     </div>
                 </div>
             </div>

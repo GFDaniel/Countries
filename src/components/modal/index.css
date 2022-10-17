@@ -20,6 +20,15 @@
     border-radius: 1rem;
 }
 
+.name{
+    color: #09295E;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
 .info{
     text-align: left;
     font-size: 20px;
@@ -29,5 +38,12 @@
 
 .spanInfo{
     font-weight:400;
+}
+
+.flag{
+    text-align: left;
+    font-size: 100px;
+    margin: 0px;
+    padding: 0px;
 }
   

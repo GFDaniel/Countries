@@ -14,9 +14,9 @@ const Modal: VoidFunctionComponent<IModal> = ({isOpen, toggle, country}) => {
 
     const onclickFavorite = ()=>{
         if (cookies.favorites) {
-        setCookie('favorites', [...cookies.favorites, country.name.common], { path: '/' }); 
+        setCookie('favorites', [...cookies.favorites, country.name.common], { path: '/', domain:'GFDaniel.github.io' }); 
         }else{
-        setCookie('favorites', [country.name.common], { path: '/' }); 
+        setCookie('favorites', [country.name.common], { path: '/', domain:'GFDaniel.github.io' }); 
         }
     }
 

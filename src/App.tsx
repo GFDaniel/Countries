@@ -12,9 +12,11 @@ function App() {
   const [selectedValue, setSelectedValue] = useState<any>('0');
   const [showStars, setShowStars] = useState<boolean>(false);
   
-  const [cookies] = useCookies(['favorites']);
+  const [cookies, setCookie] = useCookies(['favorites']);
 
   useEffect(() => {
+    setCookie('favorites', [], { path: '/', domain:'GFDaniel.github.io' });
+    
     fetch('https://restcountries.com/v3/all')
     .then(results => results.json())
       .then(data => {
